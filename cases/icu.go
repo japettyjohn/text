@@ -11,9 +11,10 @@ package cases
 // functions will not end up in the package.
 
 // TODO: Ensure that the correct ICU version is set.
+// NOTE: Requires at least version icu version 57
 
 /*
-#cgo LDFLAGS: -licui18n.57 -licuuc.57
+#cgo LDFLAGS: -licui18n -licuuc
 #include <stdlib.h>
 #include <unicode/ustring.h>
 #include <unicode/utypes.h>
